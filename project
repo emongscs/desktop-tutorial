@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	double score[5] = {40, 60, 50, 70, 80};
+
+	double tot = score[0] + score[1] + score[2] + score[3] + score[4];
+	double avg = tot / 5;
+
+	cout << "점수의 합계 : "<<tot << endl;
+	cout << "점수의 평균 :" <<avg << endl;
+
+	return 0;
+}
